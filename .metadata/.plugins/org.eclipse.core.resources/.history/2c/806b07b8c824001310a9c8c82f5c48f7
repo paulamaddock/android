@@ -1,0 +1,22 @@
+package com.example.helloworld;
+
+import java.io.IOException
+
+import android.app.Activity;
+import android.content.res.AssetFileDescriptor;
+import android.content.res.AssetManager;
+import android.media.AudioManager;
+import android.media.MediaPlayer;
+import android.os.Bundle;
+import android.widget.TextView;
+import android.view.Window;
+
+public class MediaPlayerTest extends Activity {
+
+	MediaPlayer mediaPlayer;
+	
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		
+	}
+}

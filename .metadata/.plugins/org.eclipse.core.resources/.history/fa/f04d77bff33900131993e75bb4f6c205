@@ -1,0 +1,15 @@
+package com.paul.framework;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Pool<T> {
+	
+	public interface PoolObjectFactory<T> {
+		public T createObject();
+	}
+	
+	private final List<T>freeObjects;
+	private PoolObjectFactory<T> factory;
+	private final int maxSize;
+}

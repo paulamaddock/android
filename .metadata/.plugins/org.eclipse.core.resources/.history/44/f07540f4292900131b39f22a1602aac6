@@ -1,0 +1,30 @@
+package com.example.helloworld;
+
+import android.app.Activity;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.Paint;
+import android.graphics.Paint.Style;
+import android.os.Bundle;
+import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
+
+public class ShapeTest extends Activity {
+	class RenderView extends View {
+		Paint paint;
+		
+		public RenderView(Context context) {
+			super(context);
+			paint = new Paint();
+		}
+		
+		protected void onDraw(Canvas canvas) {
+			canvas.drawRGB(255, 255, 255);
+			paint.setColor(Color.Red);
+			canvas.drawLine(0, 0, canvas.getWidth()-1, canvas.getHeight()-1, paint);
+			
+			paint.setStyle(Style.STROKE);
+		}
+	}
+}

@@ -1,0 +1,23 @@
+package com.paul.framework.impxsl;
+
+import com.paul.framework.Sound;
+import android.media.SoundPool;
+
+public class AndroidSound implements Sound {
+
+	int soundId;
+	SoundPool soundPool;
+	
+	@Override
+	public void play(float volume) {
+		this.soundId = soundId;
+		this.soundPool = soundPool;
+	}
+
+	@Override
+	public void dispose() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

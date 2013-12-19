@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.example.helloworld.FullScreenActivity.java&apos; to &apos;FullScreenTest.java&apos;&#x0A;- Original project: &apos;HelloWorld&apos;&#x0A;- Original element: &apos;com.example.helloworld.FullScreenActivity.java&apos;&#x0A;- Renamed element: &apos;com.example.helloworld.FullScreenTest.java&apos;" description="Rename compilation unit &apos;FullScreenActivity.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.example.helloworld{FullScreenActivity.java" name="FullScreenTest.java" references="false" stamp="1380156381897" version="1.0"/>
+</session>

@@ -1,0 +1,28 @@
+package com.example.helloworld;
+
+import android.app.Activity;
+import android.content.Context;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.Paint;
+import android.graphics.Rect;
+import android.graphics.Typeface;
+import android.os.Bundle;
+import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
+
+public class FontTest extends Activity {
+	
+	class RenderView extends View {
+		Paint paint;
+		Typeface font;
+		Rect bounds = new Rect();
+		
+		public RenderView(Context context){
+			super(context);
+			paint = new Paint();
+			font = Typeface.createFromAsset(context.getAssets(), "font.ttf");
+		}
+	}
+}

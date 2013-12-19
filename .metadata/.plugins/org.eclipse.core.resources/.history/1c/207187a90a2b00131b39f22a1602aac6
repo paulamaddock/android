@@ -1,0 +1,21 @@
+package com.paul.framework.impxsl;
+
+import com.paul.framework.Audio;
+import com.paul.framework.Music;
+import com.paul.framework.Sound;
+
+public class AndroidAudio implements Audio {
+
+	@Override
+	public Music newMusic(String filename) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Sound newSound(String filename) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

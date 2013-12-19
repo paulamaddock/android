@@ -1,0 +1,7 @@
+package com.example.helloworld;
+
+import android.os.Activity;
+
+public class KeyTest extends Activity {
+
+}
