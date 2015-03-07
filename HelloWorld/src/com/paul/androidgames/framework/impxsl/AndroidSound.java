@@ -1,6 +1,6 @@
-package com.paul.framework.impxsl;
+package com.paul.androidgames.framework.impxsl;
 
-import com.paul.framework.Sound;
+import com.paul.androidgames.framework.Sound;
 import android.media.SoundPool;
 
 public class AndroidSound implements Sound {

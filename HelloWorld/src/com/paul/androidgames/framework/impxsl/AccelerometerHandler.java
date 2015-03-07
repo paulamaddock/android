@@ -1,4 +1,4 @@
-package com.paul.framework.impxsl;
+package com.paul.androidgames.framework.impxsl;
 
 import android.hardware.Sensor;
 import android.content.Context;

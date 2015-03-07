@@ -1,4 +1,4 @@
-package com.paul.framework;
+package com.paul.androidgames.framework;
 
 public interface Sound {
     public void play(float volume);

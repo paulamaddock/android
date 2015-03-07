@@ -1,6 +1,6 @@
-package com.paul.framework;
+package com.paul.androidgames.framework;
 
-import com.paul.framework.Graphics.PixmapFormat;
+import com.paul.androidgames.framework.Graphics.PixmapFormat;
 
 public interface Pixmap {
     public int getWidth();

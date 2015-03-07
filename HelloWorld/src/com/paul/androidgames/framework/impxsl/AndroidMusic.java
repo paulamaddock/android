@@ -1,8 +1,8 @@
-package com.paul.framework.impxsl;
+package com.paul.androidgames.framework.impxsl;
 
 import java.io.IOException;
 
-import com.paul.framework.Music;
+import com.paul.androidgames.framework.Music;
 import android.content.res.AssetFileDescriptor;
 import android.media.MediaPlayer;
 import android.media.MediaPlayer.OnCompletionListener;

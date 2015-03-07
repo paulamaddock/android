@@ -1,14 +1,14 @@
-package com.paul.framework.impxsl;
+package com.paul.androidgames.framework.impxsl;
 
-import com.paul.framework.Audio;
+import com.paul.androidgames.framework.Audio;
 import java.io.IOException;
 import android.app.Activity;
 import android.content.res.AssetFileDescriptor;
 import android.content.res.AssetManager;
 import android.media.AudioManager;
 import android.media.SoundPool;
-import com.paul.framework.Music;
-import com.paul.framework.Sound;
+import com.paul.androidgames.framework.Music;
+import com.paul.androidgames.framework.Sound;
 
 public class AndroidAudio implements Audio {
 

@@ -1,4 +1,4 @@
-package com.paul.framework;
+package com.paul.androidgames.framework;
 
 import java.io.IOException;
 import java.io.InputStream;

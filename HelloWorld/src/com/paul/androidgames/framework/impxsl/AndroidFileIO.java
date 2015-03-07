@@ -1,4 +1,4 @@
-package com.paul.framework.impxsl;
+package com.paul.androidgames.framework.impxsl;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -10,7 +10,7 @@ import java.io.OutputStream;
 import android.content.res.AssetManager;
 import android.os.Environment;
 
-import com.paul.framework.FileIO;
+import com.paul.androidgames.framework.FileIO;
 
 public class AndroidFileIO implements FileIO {
 	AssetManager assets;
